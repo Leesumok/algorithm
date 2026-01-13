@@ -11,14 +11,14 @@ fun main() {
     // max 값 갱신 및 비교 그리고 count
     var currentSum = max
     var sameCount = 1
-    for (i in 1..day - window) {
-        currentSum = currentSum - visitNum[i - 1] + visitNum[i + window - 1]
+    for (i in window until day) {
+        currentSum = currentSum - visitNum[i - window] + visitNum[i]
 
-        if (max == currentSum) {
+        if(currentSum > max){
+            max = currentSum
+            sameCount = 1
+        }else if (currentSum == max){
             sameCount++
-        } else {
-            if( currentSum > max) sameCount = 1
-            max = maxOf(max, currentSum)
         }
     }
 
