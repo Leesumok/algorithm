@@ -13,5 +13,5 @@ fun main() {
         queue.add(second)
     }
 
-    println(queue.joinToString(""))
+    println(queue.first())
 }
