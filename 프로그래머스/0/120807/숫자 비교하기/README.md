@@ -79,13 +79,14 @@
 | --- | --- |
 | Status | Accepted |
 | Language | Kotlin |
-| Runtime | Unknown |
-| Memory | Unknown |
-| Submitted At | 2026년 04월 22일 21:39:25 |
+| Runtime | 0.01 ms |
+| Memory | 62.6 MB |
+| Submitted At | 2026년 04월 22일 21:40:21 |
 
 ### Result Summary
 
-- Empty
+- 정확성: 100.0
+- 합계: 100.0 / 100.0
 
 ---
 
